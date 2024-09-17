@@ -1,0 +1,150 @@
+.card {
+  box-shadow: 1px 4px 1px rgba(0,0,0,0.5);
+}
+
+.drop-target {
+  height: var(--card-height);
+}
+
+.card-wrapper:hover .darkens {
+  background-color: var(--dark-background);
+}
+
+.details {
+  text-align: right;
+}
+
+.percentage {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.symbol,
+.delta,
+.percentage,
+.price {
+  padding-right: 1px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.1;
+  font-size: var(--font-large);
+}
+
+.percentage svg {
+  margin-right: 3px;
+  height: 9px;
+}
+
+.price_positive,
+.price_positive * {
+  fill:var(--text-increase);
+  color: var(--text-increase);
+}
+.price_negative,
+.price_negative * {
+  fill:var(--text-decrease);
+  color: var(--text-decrease);
+}
+
+.minichartWrapper {
+  flex: 1;
+}
+
+.card-details {
+  padding-left: 6px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  padding-right:10px;
+  height:35px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-name {
+  width:70px; 
+  flex-grow: 0; 
+}
+
+.card-price {
+  flex-grow: 1;
+  display:flex;
+  justify-content: space-between; 
+  flex-direction: row;
+}
+
+.symbol svg {
+  margin-right: 3px;
+  height: 9px;
+}
+
+.price {
+  width:75px;
+  text-align: right;
+}
+
+.card-chart {
+  padding-left:0px;
+  height:24px;
+  width: 100%;
+}
+
+.card-chart svg{
+  background: linear-gradient(90deg, #071521 0%, rgba(7,21,33,0) 100%) top left no-repeat;
+  background-size: 48px;
+  background-blend-mode: overlay !important;  
+}
+
+.card-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-menu > span {  
+  display: flex;
+}
+
+.card-menu  button {
+  height:22px;  
+  border:transparent 1px solid;  
+  background-color: #1B3B56;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 0px 0px 0px 0px;
+}
+
+.card-menu  button > span{
+  display: flex;
+  align-items: center;
+  font-size:10px;  
+  height: 100%;    
+}
+
+.card-menu-remove span,
+.card-menu-news span,
+.card-menu-chart span {
+  padding-right:8px;
+}
+
+.button-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-menu .open {
+  border:solid 1px white;
+  background-color: #091A29;
+}
+
+.card-menu button:hover {
+  background-color: #091A29;
+}
+
+.card-menu button:active {
+  border:solid 1px white;
+}
+
+.card-menu {  
+  transition: 2.6s all;  
+}

@@ -1,0 +1,118 @@
+:root {
+  /* UX Colours */
+  /* Generic Colours */
+  --color-highlight: #21b1ca;
+  --color-highlight-hover: #2198ae;
+  --color-inactive: #8a96a6;
+  --color-hover: #0d2437;
+  --color-primary: #0d2437;
+  --color-secondary: #091a29;
+  /* Windows*/
+  --window-background-color: #0d2437;
+  --window-background-color-dark: #071521;
+  --window-header-bar: #010f1b;
+  --window-divider: #010f1b;
+  --window-icon: #ffffff;
+  --window-stock-hover: #091a29;
+  /* Charts */
+  --chart-line: #21b1ca;
+  --chart-gradient-top: #21b1ca;
+  --chart-gradient-bottom: #ffffff;
+  --chart-hover: #1b3b56;
+  --chart-gridline: #55555b;
+  --chart-candlestick-down: #ff7171;
+  --chart-candlestick-up: #78ff79;
+  --chart-handle: #ffffff;
+  --chart-brush-selection: #29e9e3;
+  --chart-tick-path: #ffffff;
+  --chart-domain: #9e9e9e;
+  --chart-area: rgba(33, 177, 202, 0.2);
+
+  /* Scroll Bars */
+  --scroll-bar-background: #0d2437;
+  --scroll-bar-inactive: #8a96a6;
+  --scroll-bar-arrow: #8a96a6;
+  --scroll-bar-track: #1b3b56;
+  --scroll-bar-grip: rgba(98, 116, 130, 0.8);
+  /* Icons */
+  --icon-active: #21b1ca;
+  --icon-inactive: #8a96a6;
+  --icon-hover: #1b3b56;
+  --icon-hover-light: #1b3b56;
+  --header-icon: #abb3b9;
+  /* Text */
+  --text-color: #ffffff;
+  --text-increase: #43c578;
+  --text-decrease: #ff6262;
+
+  /* dimensions */
+  --expanded-width: 230px;
+  --toolbar-height: 50px;
+  --search-result-height: 60px;
+  --icons-size: 30px;
+  --titlebar-height: 30px;
+  --bottom-tab-height: 33px;
+  --scrollbar-width: 6px;
+
+  /* transitions  */
+  --icon-transition-duration: 0.5s;
+
+  /* font styles */
+  --font-family: 'Roboto';
+
+  /* font-size */
+  --font-small: 11px;
+  --font-normal: 12px;
+  --font-medium: 13px;
+  --font-large: 14px;
+  --font-xlarge: 16px;
+  --font-xxlarge: 18px;
+  --font-xxxlarge: 20px;
+  --font-header-text: 21px;
+
+  /* font-weight */
+  --font-weight-normal: 400;
+  --font-weight-bold: 500;
+  --font-weight-bolder: 700;
+
+  /* padding */
+  --padding-small: 5px;
+  --padding-medium: 12px;
+  --padding-large: 15px;
+  --padding-xlarge: 20px;
+
+  /* margin */
+  --margin-small: 5px;
+  --margin-medium: 10px;
+  --margin-large: 15px;
+
+  --clr-divider-dark: var(--dark-background);
+  --clr-divider-light: #061725;
+
+  /* misc */
+  --border: solid 2px var(--text-teal);
+
+  /* Deprecated Style Colours  */
+  --text-grey-darkest: var(--text-color);
+  --text-grey-darker: var(--text-color);
+  --text-grey-dark: var(--text-color);
+  --text-grey: var(--text-color);
+  --text-grey-light: var(--text-color);
+  --text-grey-lighter: var(--text-color);
+
+  --text-teal: var(--color-highlight);
+  --text-teal-light: var(--color-highlight);
+
+  --lightest-background: #79818b;
+  --lighter-background: #606872;
+  --light-background: #464e58;
+
+  --middle-background: var(--window-background-color);
+  --middle-background-light: var(--color-hover);
+  --middle-background-lighter: var(--window-divider);
+
+  --dark-background: var(--window-background-color);
+
+  --chart-teal: var(--color-highlight);
+  --chart-teal-lighter: var(--color-highlight);
+}
